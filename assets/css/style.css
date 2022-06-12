@@ -45,13 +45,14 @@ header nav ul li {
 
 .hero-form {
     background-color: #fce138;
+    border: solid 3px #024e76;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
 }
 
 footer {
