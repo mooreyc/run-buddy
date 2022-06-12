@@ -37,10 +37,13 @@ header nav ul li {
     font-weight: lighter;
     font-size: 22px;
 }
-
+/* hero stylings*/
 .hero {
     background-image: url("../assets/images/hero-bg.jpg);
     height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .hero-form {
@@ -50,9 +53,12 @@ header nav ul li {
     width: 500px;
     color: #024e76;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    
+    bottom: 120px;
+    right: 140px;
+
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
 }
 
 footer {
